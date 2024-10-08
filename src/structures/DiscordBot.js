@@ -48,7 +48,7 @@ class DiscordBot extends Discord.Client {
         this.guildIntl = {};
         this.botIntl = null;
         this.enIntl = null;
-        this.enMessages = JSON.parse(Fs.readFileSync(Path.join(__dirname, '..', 'languages', 'en.json')), 'utf8');
+        this.enMessages = JSON.parse(Fs.readFileSync(Path.join(__dirname, '..', 'languages', 'pt.json')), 'utf8');
 
         this.rustplusInstances = new Object();
         this.activeRustplusInstances = new Object();
