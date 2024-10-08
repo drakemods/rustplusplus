@@ -22,7 +22,7 @@ const Path = require('path');
 const Fs = require('fs');
 
 const root = Path.join(__dirname, '..');
-const enJsonPath = Path.join(root, 'languages/en.json');
+const enJsonPath = Path.join(root, 'languages/pt.json');
 const allFiles = [];
 
 const ignoredDirs = [
